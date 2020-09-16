@@ -1,8 +1,8 @@
-# better-cloudflare-ip
+# better-cloudflare-ip (bci-en)
 
-查找适合自己当前网络环境的优选Cloudflare Anycast IP
+Get the best Cloudflare anycast IP address for your network!
 
-## 使用申明
+## Disclaimer
 
 本项目侧重于研究任播技术中丢包率与网速的相互关系，仅供学习使用
 
@@ -38,7 +38,8 @@ n) 获取网站内容需要通过登录等方式，无法直接查看造成内�
 
 o) 提供影视、软件和应用等下载服务的网站。
 
-## Linux版本
+## Usage
+### Linux
 
 linux shell脚本，自动化筛选
 
@@ -72,8 +73,7 @@ sudo ./cf.sh
   
 下面是我自己用 ubuntu 测试的一段[演示视频](https://proxy.freecdn.workers.dev/?url=https://raw.githubusercontent.com/badafans/better-cloudflare-ip/master/linux.mp4)
 
-
-## Windows版本
+### Windows
 
 windows批处理全自动无门槛操作，自动化筛选
 
@@ -91,7 +91,7 @@ fping-4.2 for win32 修改版（基于 msys2.0 修改编译）点击[下载](htt
 
 下面是我自己用 Windows 10 测试的一段[演示视频](https://proxy.freecdn.workers.dev/?url=https://raw.githubusercontent.com/badafans/better-cloudflare-ip/master/windows.mp4)
 
-## Android版本
+### Android
 
 1.安装termux,完整复制下方链接粘贴到termux并回车
 
@@ -111,7 +111,7 @@ curl https://proxy.freecdn.workers.dev/?url=https://raw.githubusercontent.com/ba
 
 下面是我自己用 Termux 测试的一段[演示视频](https://proxy.freecdn.workers.dev/?url=https://raw.githubusercontent.com/badafans/better-cloudflare-ip/master/termux.mp4)
 
-## 引用声明
+## Reference
 
 测速服务器用的文件是来自 Cloudflare 官方测速服务器提取出来的测速文件,官方测速地址 https://speed.cloudflare.com/
 
